@@ -1,0 +1,14 @@
+A = int (input())
+B = int (input())
+x = int (input())
+
+if A >= x and B >= x:
+    print("2")
+elif A >= x:
+    print("A")
+elif B >= x:
+    print("B")
+elif A + B >= x:
+    print("1")
+else:
+    print("0")
