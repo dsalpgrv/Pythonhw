@@ -1,0 +1,11 @@
+number = 54690
+
+units = number % 10
+tens = (number % 100) // 10
+hundreds = (number % 1000) // 100
+thousands = (number % 10000) // 1000
+ten_thousands = number // 10000
+
+result = (tens ** units) * hundreds / (tens - thousands)
+
+print(result)
